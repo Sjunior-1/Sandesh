@@ -197,19 +197,19 @@
 
     <form id="login-form">
         <h2>Sweet Login</h2>
-        <input type="text" id="sujata" placeholder="type sujata">
+        <input type="text" id="kalpana" placeholder="type sujata">
         <button id="submit-btn">Let's Eat!🎂</button>
     </form>
 
     <script>
         document.getElementById('submit-btn').addEventListener('click', function(event) {
             event.preventDefault();
-            const nameInput = document.getElementById('sujata').value.trim();
-            if (nameInput.toLowerCase() === "sujata") {
+            const nameInput = document.getElementById('kalpana').value.trim();
+            if (nameInput.toLowerCase() === "kalpana") {
                 alert("Welcome to the Cake Party! 🎂🌺");
                 window.location.href = "main.html";
             } else {
-                alert("Oops! Wrong ingredient! type sujata🎂");
+                alert("Oops! Wrong ingredient! type kalpana 🎂");
             }
         });
 
